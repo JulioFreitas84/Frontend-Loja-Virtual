@@ -13,6 +13,7 @@ import { CidadeComponent } from './components/views/cidade/cidade.component';
 import { CarrinhoComprasComponent } from './components/views/carrinho-compras/carrinho-compras.component';
 import { PessoaComponent } from './components/views/pessoa/pessoa.component';
 import { EstadoHeadComponent } from './components/views/estado/estado-head/estado-head.component';
+import { EstadoCreateComponent } from './components/views/estado/estado-create/estado-create.component';
 
 const routes: Routes = [
   {
@@ -42,6 +43,10 @@ const routes: Routes = [
   {
     path: 'estado/read',
     component: EstadoHeadComponent
+  },
+  {
+    path: 'estado/create',
+    component: EstadoCreateComponent
   },
   {
     path: 'produto',

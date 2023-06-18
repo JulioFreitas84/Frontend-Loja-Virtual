@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'https://localhost:8080https://petstore-back-production.up.railway.app/'
+  baseUrl: 'petstore-back-production.up.railway.app'
 };
 
 /*

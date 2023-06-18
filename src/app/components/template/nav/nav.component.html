@@ -1,0 +1,63 @@
+<mat-sidenav-container class="container">
+  <mat-sidenav mode="side" opened>
+    <mat-nav-list>
+      <a routerLink="" mat-list-item>
+        <i class="material-icons">home</i>
+        Home
+      </a>
+      <a routerLink="/categoria" mat-list-item>
+        <i class="material-icons">category</i>
+        Categoria
+      </a>
+
+      <a routerLink="/estado" mat-list-item>
+        <i class="material-icons">edit_location</i>
+        Estado
+      </a>
+
+      <a routerLink="/produto" mat-list-item>
+        <i class="material-icons">production_quantity_limits</i>
+        Produto
+      </a>
+
+      <a routerLink="/marca" mat-list-item>
+        <i class="material-icons">branding_watermark</i>
+        Marca
+      </a>
+
+      <a routerLink="/cidade" mat-list-item>
+        <i class="material-icons">location_city</i>
+        Cidade
+      </a>
+
+      <a routerLink="/carrinhoCompras" mat-list-item>
+        <i class="material-icons">shopping_basket</i>
+        Carrinho Compras
+      </a>
+
+      <a routerLink="/permissao" mat-list-item>
+        <i class="material-icons">lock_open</i>
+        Permissão
+      </a>
+
+      <a routerLink="/permissaoPessoa" mat-list-item>
+        <i class="material-icons">group_add</i>
+        Permissão Pessoa
+      </a>
+
+      <a routerLink="/pessoa" mat-list-item>
+        <i class="material-icons">person_outline</i>
+        Pessoa
+      </a>
+
+      <a routerLink="/produtoImagem" mat-list-item>
+        <i class="material-icons">image</i>
+        Produto Imagem
+      </a>
+
+    </mat-nav-list>
+  </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>  
+    </mat-sidenav-content>
+</mat-sidenav-container>

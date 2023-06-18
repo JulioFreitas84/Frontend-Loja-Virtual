@@ -11,10 +11,7 @@ import { ProdutoComponent } from './components/views/produto/produto.component';
 import { MarcaComponent } from './components/views/marca/marca.component';
 import { CidadeComponent } from './components/views/cidade/cidade.component';
 import { CarrinhoComprasComponent } from './components/views/carrinho-compras/carrinho-compras.component';
-import { PermissaoComponent } from './components/views/permissao/permissao.component';
-import { PermissaoPessoaComponent } from './components/views/permissao-pessoa/permissao-pessoa.component';
 import { PessoaComponent } from './components/views/pessoa/pessoa.component';
-import { ProdutoImagemComponent } from './components/views/produto-imagem/produto-imagem.component';
 import { EstadoHeadComponent } from './components/views/estado/estado-head/estado-head.component';
 
 const routes: Routes = [
@@ -63,20 +60,8 @@ const routes: Routes = [
     component: CarrinhoComprasComponent
   },
   {
-    path: 'permissao',
-    component: PermissaoComponent
-  },
-  {
-    path: 'permissaoPessoa',
-    component: PermissaoPessoaComponent
-  },
-  {
     path: 'pessoa',
     component: PessoaComponent
-  },
-  {
-    path: 'produtoImagem',
-    component: ProdutoImagemComponent
   }
 ];
 

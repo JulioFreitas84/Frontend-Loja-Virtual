@@ -28,10 +28,7 @@ import { ProdutoComponent } from './components/views/produto/produto.component';
 import { MarcaComponent } from './components/views/marca/marca.component';
 import { CidadeComponent } from './components/views/cidade/cidade.component';
 import { CarrinhoComprasComponent } from './components/views/carrinho-compras/carrinho-compras.component';
-import { PermissaoComponent } from './components/views/permissao/permissao.component';
-import { PermissaoPessoaComponent } from './components/views/permissao-pessoa/permissao-pessoa.component';
 import { PessoaComponent } from './components/views/pessoa/pessoa.component';
-import { ProdutoImagemComponent } from './components/views/produto-imagem/produto-imagem.component';
 import { EstadoCreateComponent } from './components/views/estado/estado-create/estado-create.component';
 import { EstadoDeleteComponent } from './components/views/estado/estado-delete/estado-delete.component';
 import { EstadoHeadComponent } from './components/views/estado/estado-head/estado-head.component';
@@ -39,13 +36,9 @@ import { EstadoUpdateComponent } from './components/views/estado/estado-update/e
 import { HomeComponent } from "./components/views/home/home.component";
 
 
-
-
-
-
 @NgModule({
   declarations: [
-    AppComponent, HeaderComponent, FooterComponent, NavComponent,HomeComponent, CategoriaHeadComponent, CategoriaCreateComponent, CategoriaDeleteComponent, CategoriaUpdateComponent, EstadoHeadComponent, ProdutoComponent, MarcaComponent, CidadeComponent, CarrinhoComprasComponent, PermissaoComponent, PermissaoPessoaComponent, PessoaComponent, ProdutoImagemComponent, EstadoCreateComponent, EstadoDeleteComponent, EstadoHeadComponent, EstadoUpdateComponent],
+    AppComponent, HeaderComponent, FooterComponent, NavComponent,HomeComponent, CategoriaHeadComponent, CategoriaCreateComponent, CategoriaDeleteComponent, CategoriaUpdateComponent, EstadoHeadComponent, ProdutoComponent, MarcaComponent, CidadeComponent, CarrinhoComprasComponent, PessoaComponent, EstadoCreateComponent, EstadoDeleteComponent, EstadoHeadComponent, EstadoUpdateComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

@@ -1,20 +1,19 @@
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
-import { CategoriaUpdateComponent } from './components/views/categoria/categoria-update/categoria-update.component';
-import { CategoriaDeleteComponent } from './components/views/categoria/categoria-delete/categoria-delete.component';
-import { HomeComponent } from './components/views/home/home.component';
-import { NgModule, Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { Routes, RouterModule } from '@angular/router';
+import { CarrinhoHeadComponent } from './components/views/carrinho/carrinho-head/carrinho-head.component';
 import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
-import { ProdutoComponent } from './components/views/produto/produto.component';
-import { MarcaComponent } from './components/views/marca/marca.component';
-
-import { CarrinhoComprasComponent } from './components/views/carrinho-compras/carrinho-compras.component';
-import { PessoaComponent } from './components/views/pessoa/pessoa.component';
-import { EstadoHeadComponent } from './components/views/estado/estado-head/estado-head.component';
-import { EstadoCreateComponent } from './components/views/estado/estado-create/estado-create.component';
+import { CategoriaDeleteComponent } from './components/views/categoria/categoria-delete/categoria-delete.component';
 import { CategoriaHeadComponent } from './components/views/categoria/categoria-head/categoria-head.component';
+import { CategoriaUpdateComponent } from './components/views/categoria/categoria-update/categoria-update.component';
 import { CidadeHeadComponent } from './components/views/cidade/cidade-head/cidade-head.component';
+import { EstadoCreateComponent } from './components/views/estado/estado-create/estado-create.component';
+import { EstadoHeadComponent } from './components/views/estado/estado-head/estado-head.component';
+import { HomeComponent } from './components/views/home/home.component';
+import { MarcaHeadComponent } from './components/views/marca/marca-head/marca-head.component';
+import { PessoaHeadComponent } from './components/views/pessoa/pessoa-head/pessoa-head.component';
+import { ProdutoHeadComponent } from './components/views/produto/produto-head/produto-head.component';
+
 
 const routes: Routes = [
   {
@@ -46,7 +45,7 @@ const routes: Routes = [
     component: EstadoHeadComponent
   },
   {
-    path: 'estado/read',
+    path: 'estado/head',
     component: EstadoHeadComponent
   },
   {
@@ -55,19 +54,19 @@ const routes: Routes = [
   },
   {
     path: 'produto',
-    component: ProdutoComponent
+    component: ProdutoHeadComponent
   },
   {
     path: 'marca',
-    component: MarcaComponent
+    component: MarcaHeadComponent
   },
   {
-    path: 'carrinhoCompras',
-    component: CarrinhoComprasComponent
+    path: 'carrinho',
+    component: CarrinhoHeadComponent
   },
   {
     path: 'pessoa',
-    component: PessoaComponent
+    component: PessoaHeadComponent
   }
 ];
 

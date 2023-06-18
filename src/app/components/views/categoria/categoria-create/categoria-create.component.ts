@@ -13,8 +13,7 @@ export class CategoriaCreateComponent implements OnInit {
 
   categoria: Categoria = {
     nome: '',
-    dataCriacao: '',
-    dataAtualizacao: ' '
+    descricao: ''
   }
 
   constructor(private service: CategoriaService, private router: Router) { }

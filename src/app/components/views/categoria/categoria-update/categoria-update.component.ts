@@ -12,8 +12,7 @@ export class CategoriaUpdateComponent implements OnInit {
   categoria: Categoria = {
     id: '',
     nome: '',
-    dataCriacao: '',
-    dataAtualizacao: ''
+    descricao: ''
   };
 
   constructor(

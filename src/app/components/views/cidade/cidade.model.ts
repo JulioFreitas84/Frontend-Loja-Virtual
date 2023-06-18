@@ -1,5 +1,4 @@
-
-export interface Estado {
+export interface Cidade {
     id?: String;
     nome: String;
     descricao: string;

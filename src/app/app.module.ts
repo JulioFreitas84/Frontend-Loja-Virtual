@@ -14,7 +14,7 @@ import { MatListModule } from "@angular/material/list";
 import { MatIconModule } from "@angular/material/icon";
 import {MatCardModule} from '@angular/material/card';
 import { AppRoutingModule } from './app-routing.module';
-import { CategoriaHeadComponent } from './components/views/categoria/categoria-head/categoria-head.component';
+import { CategoriaHeadComponent } from "./components/views/categoria/categoria-head/categoria-head.component";
 import {MatTableModule} from '@angular/material/table';
 import {MatButtonModule} from '@angular/material/button';
 import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
@@ -26,7 +26,6 @@ import { CategoriaDeleteComponent } from './components/views/categoria/categoria
 import { CategoriaUpdateComponent } from './components/views/categoria/categoria-update/categoria-update.component';
 import { ProdutoComponent } from './components/views/produto/produto.component';
 import { MarcaComponent } from './components/views/marca/marca.component';
-import { CidadeComponent } from './components/views/cidade/cidade.component';
 import { CarrinhoComprasComponent } from './components/views/carrinho-compras/carrinho-compras.component';
 import { PessoaComponent } from './components/views/pessoa/pessoa.component';
 import { EstadoCreateComponent } from './components/views/estado/estado-create/estado-create.component';
@@ -34,11 +33,16 @@ import { EstadoDeleteComponent } from './components/views/estado/estado-delete/e
 import { EstadoHeadComponent } from './components/views/estado/estado-head/estado-head.component';
 import { EstadoUpdateComponent } from './components/views/estado/estado-update/estado-update.component';
 import { HomeComponent } from "./components/views/home/home.component";
+import { CidadeHeadComponent } from './components/views/cidade/cidade-head/cidade-head.component';
+import { CidadeCreateComponent } from './components/views/cidade/cidade-create/cidade-create.component';
+import { CidadeDeleteComponent } from './components/views/cidade/cidade-delete/cidade-delete.component';
+import { CidadeUpdateComponent } from './components/views/cidade/cidade-update/cidade-update.component';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent, HeaderComponent, FooterComponent, NavComponent,HomeComponent, CategoriaHeadComponent, CategoriaCreateComponent, CategoriaDeleteComponent, CategoriaUpdateComponent, EstadoHeadComponent, ProdutoComponent, MarcaComponent, CidadeComponent, CarrinhoComprasComponent, PessoaComponent, EstadoCreateComponent, EstadoDeleteComponent, EstadoHeadComponent, EstadoUpdateComponent],
+    AppComponent, HeaderComponent, FooterComponent, NavComponent,HomeComponent, CategoriaHeadComponent, CategoriaCreateComponent, CategoriaDeleteComponent, CategoriaUpdateComponent, EstadoHeadComponent, ProdutoComponent, MarcaComponent, CarrinhoComprasComponent, PessoaComponent, EstadoCreateComponent, EstadoDeleteComponent, EstadoHeadComponent, EstadoUpdateComponent, CidadeHeadComponent, CidadeCreateComponent, CidadeDeleteComponent, CidadeUpdateComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

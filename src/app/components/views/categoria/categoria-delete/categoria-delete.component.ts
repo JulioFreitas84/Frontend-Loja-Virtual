@@ -14,8 +14,7 @@ export class CategoriaDeleteComponent implements OnInit {
   categoria: Categoria = {
     id: '',
     nome: '',
-    dataCriacao: '',
-    dataAtualizacao: ''
+    descricao: ''
   }
 
   constructor(private service: CategoriaService, private router: Router, private route: ActivatedRoute) { }

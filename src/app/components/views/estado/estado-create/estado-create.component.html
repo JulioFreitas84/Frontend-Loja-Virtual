@@ -1,1 +1,20 @@
-<p>estado-create works!</p>
+<form>
+    <h1>Criar Novo Estado</h1>
+
+    <mat-form-field class="form">
+        <mat-label>Nome</mat-label>
+            <input matInput [(ngModel)]="estado.nome" type="text" name="nome" placeholder="Ex. estado">
+    </mat-form-field>
+
+    <mat-form-field class="form">
+        <mat-label>Data Criação</mat-label>
+            <datalist matInput [(ngModel)]="estado.descricao" type="datalist" name="descricao"></datalist>
+    </mat-form-field>
+
+    <div class="buttons">
+        <button (click)="create()" class="mat-elevation-z8" mat-stroked-button color="primary">CRIAR</button>
+        <button (click)="cancel()" class="mat-elevation-z8" mat-stroked-button color="warn">CANCELAR</button>
+    </div>
+
+</form>
+

@@ -11,12 +11,11 @@ import { Router } from '@angular/router';
 export class EstadoHeadComponent implements OnInit {
 
   estado: Estado [] = []
-  displayedColumns: string[] = ['id', 'nome','livros', 'acoes'];
+  displayedColumns: string[] = ['id', 'nome','descricao', 'acoes'];
 
   constructor(private service: EstadoService, private router: Router) { }
 
   ngOnInit(): void {
-
     this.findAll();
   }
 
